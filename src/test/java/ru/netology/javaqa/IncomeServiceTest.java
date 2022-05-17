@@ -24,7 +24,7 @@ public class IncomeServiceTest {
         int age = 50;
 
         int actual = service.calcIncome(age);
-        int expected = 50_000;
+        int expected = 50_00;
 
         Assertions.assertEquals(expected, actual);
     }
